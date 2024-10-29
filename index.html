@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sebastian Hoyos - Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="language-switcher">
+      <button onclick="toggleLanguage('es')" class="lang-btn" data-lang="es">
+        ES
+      </button>
+      <button onclick="toggleLanguage('en')" class="lang-btn" data-lang="en">
+        EN
+      </button>
+    </div>
+    <div class="container">
+      <header>
+        <div class="profile-header">
+          <img
+            src="./profile.jpg"
+            alt="Sebastian Hoyos"
+            class="profile-image"
+          />
+          <h1>Sebastian Hoyos</h1>
+          <p class="title">
+            <span data-lang-es>Desarrollador Web Full Stack</span>
+            <span data-lang-en>Full Stack Web Developer</span>
+          </p>
+          <div class="social-links">
+            <a
+              href="https://github.com/SebastianHoyosLopez"
+              target="_blank"
+              class="social-link"
+              title="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sebastianhoyosl/"
+              target="_blank"
+              class="social-link"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://x.com/SebastinHoyosL"
+              target="_blank"
+              class="social-link"
+              title="X (Twitter)"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <section class="about">
+        <h2>
+          <span data-lang-es>Sobre mí</span>
+          <span data-lang-en>About me</span>
+        </h2>
+        <p>
+          <span data-lang-es
+            >Desarrollador web con experiencia en frameworks modernos y
+            tecnologías de frontend y backend. Competente en el desarrollo de
+            aplicaciones con NestJS y Angular para crear arquitecturas robustas
+            en el lado del servidor y del cliente, respectivamente. Con
+            conocimientos sólidos en ReactJS, JavaScript, CSS, Bootstrap y
+            Material UI, aplico habilidades en diseño y usabilidad para
+            desarrollar interfaces de usuario intuitivas y funcionales. Tengo
+            una capacidad comprobada para implementar soluciones escalables y
+            responsivas en proyectos complejos y colaborativos.</span
+          >
+          <span data-lang-en
+            >Web developer skilled in modern frameworks and both frontend and
+            backend technologies. Experienced in building robust server- and
+            client-side architectures using NestJS and Angular, respectively.
+            With strong knowledge of ReactJS, JavaScript, CSS, Bootstrap, and
+            Material UI, I bring a focus on usability and design to create
+            intuitive and functional user interfaces. Proven ability to
+            implement scalable and responsive solutions in complex,
+            collaborative projects.</span
+          >
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2>
+          <span data-lang-es>Tecnologías</span>
+          <span data-lang-en>Technologies</span>
+        </h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fab fa-react"></i>
+            <span>React.js</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-angular"></i>
+            <span>Angular.js</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-node-js"></i>
+            <span>Nest.js</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-js"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-css3"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <span>HTML5</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-bootstrap"></i>
+            <span>Bootstrap</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-react"></i>
+            <!-- Material UI no tiene un icono oficial en Font Awesome, pero puedes usar el de React -->
+            <span>Material UI</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-docker"></i>
+            <span>Docker</span>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-cogs"></i>
+            <span>REST API</span>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-list-alt"></i>
+            <span>GraphQL</span>
+          </div>    
+        </div>
+      </section>
+
+      <section class="experience">
+        <h2>
+          <span data-lang-es>Experiencia Destacada</span>
+          <span data-lang-en>Featured Experience</span>
+        </h2>
+        <div class="experience-card">
+          <h3>
+            <span data-lang-es>Desarrollo Full Stack</span>
+            <span data-lang-en>Full Stack Development</span>
+          </h3>
+          <ul>
+            <li>
+              <span data-lang-es>Arquitectura con NestJS</span>
+              <span data-lang-en>Architecture with NestJS</span>
+            </li>
+            <li>
+              <span data-lang-es>Desarrollo frontend con React y Angular</span>
+              <span data-lang-en
+                >Frontend development with React and Angular</span
+              >
+            </li>
+            <li>
+              <span data-lang-es
+                >Containerización con Docker y Docker Compose</span
+              >
+              <span data-lang-en
+                >Containerization with Docker and Docker Compose</span
+              >
+            </li>
+            <li>
+              <span data-lang-es>Diseño y gestión de bases de datos</span>
+              <span data-lang-en>Database design and management</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="contact-footer">
+        <h2>
+          <span data-lang-es>Contacto</span>
+          <span data-lang-en>Contact</span>
+        </h2>
+        <div class="contact-info">
+          <a
+            href="https://wa.me/573197904995"
+            target="_blank"
+            class="contact-link"
+          >
+            <i class="fab fa-whatsapp"></i>
+            <span>+57 3197904995</span>
+          </a>
+          <a href="mailto:sebastianhoyos145@gmail.com" class="contact-link">
+            <i class="far fa-envelope"></i>
+            <span>sebastianhoyos145@gmail.com</span>
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
